@@ -19,10 +19,10 @@ function App() {
         "Au cours de mon parcours, j’ai mené des projets concrets, conçu des tableaux de bord avec Power BI et optimisé des indicateurs clés pour accompagner la prise de décision. Compétences solides en Python, SQL, Hadoop et Spark. Sérieuse, orientée résultats et guidée par les données, j’ai à cœur de mettre mes compétences d’analyse au service de projets qui apportent une réelle valeur."
       ],
       softSkills: [
-        "Communication claire et capacité à collaborer avec des équipes variées",
-        "Esprit d’équipe et gestion efficace des projets",
-        "Résolution de problèmes complexes avec approche analytique",
-        "Adaptabilité et volonté d’apprendre de nouvelles technologies",
+        "Excellente communication et collaboration interdisciplinaire",
+        "Leadership d’équipe et gestion de projet agile",
+        "Analyse et résolution de problèmes complexes",
+        "Grande capacité d’adaptation et apprentissage continu des nouvelles technologies",
       ],
       experiences: [
         {
@@ -188,7 +188,7 @@ function App() {
             position: 'absolute',
             bottom: '10px',
             right: '10px',
-            backgroundColor: '#9dbf3d',
+            backgroundColor: '#FADCD9',
             color: '#FFFFFF',
             border: 'none',
             borderRadius: '5px',
@@ -216,37 +216,8 @@ function App() {
             {paragraph}
           </p>
         ))}
-        <div className="hero-infos">
-          <p><b>Localisation :</b> Île de France, France</p>
-          <p><b>Email :</b> cakpossehelene@gmail.com</p>
-          <p><b>Téléphone :</b> 06 51 25 34 98</p>
-          <p><b>LinkedIn :</b> <a href="https://www.linkedin.com/in/hélène-cakpossè" target="_blank" rel="noopener noreferrer">linkedin.com/in/hélène-cakpossè</a></p>
-        </div>
       </section>
-      {/* Expériences */}
-      <section className="experiences-section">
-        <h2 className="section-title">Expériences Professionnelles</h2>
-        {content[language].experiences && content[language].experiences.map((exp, idx) => (
-          <div key={idx} className="experience-block">
-            <h3>{exp.title} <span className="exp-company">– {exp.company}</span></h3>
-            <span className="exp-date">{exp.date}</span>
-            <ul>
-              {exp.details.map((d, i) => <li key={i}>{d}</li>)}
-            </ul>
-          </div>
-        ))}
-      </section>
-
-      {/* Formations */}
-      <section className="formations-section">
-        <h2 className="section-title">Formations</h2>
-        <ul>
-          {content[language].formations && content[language].formations.map((f, i) => (
-            <li key={i}><b>{f.title}</b> – {f.school} <span className="formation-year">({f.year})</span></li>
-          ))}
-        </ul>
-      </section>
-
+      {/* (Sections Expériences, Formations supprimées) */}
       {/* Certifications */}
       <section className="certifications-section">
         <h2 className="section-title">Certifications</h2>
@@ -257,25 +228,7 @@ function App() {
         </ul>
       </section>
 
-      {/* Centres d'intérêt */}
-      <section className="interests-section">
-        <h2 className="section-title">Centres d’Intérêt</h2>
-        <ul>
-          {content[language].interests && content[language].interests.map((c, i) => (
-            <li key={i}>{c}</li>
-          ))}
-        </ul>
-      </section>
-
-      {/* Langues */}
-      <section className="languages-section">
-        <h2 className="section-title">Langues</h2>
-        <ul>
-          {content[language].languages && content[language].languages.map((l, i) => (
-            <li key={i}>{l}</li>
-          ))}
-        </ul>
-      </section>
+      {/* (Sections Centres d'intérêt et Langues supprimées) */}
 
       {/* Projets */}
       <section className="projects-section">
@@ -361,7 +314,7 @@ function App() {
             <Mail size={20} /> <span>cakpossehelene@gmail.com</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/hélène-cakpossè"
+            href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-cakposs%C3%A8-923981276/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
