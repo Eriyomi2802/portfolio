@@ -173,7 +173,7 @@ function App() {
           <h1 className="header-title">{headerTitle}</h1>
           <p className="header-subtitle">{headerSubtitle}</p>
           <a
-            href="https://drive.google.com/file/d/1owPKtdDaYkdI2FPsiVkqAByYLqHCCR7m/view?usp=sharing"
+            href="https://drive.google.com/file/d/145MWlFqdtUuQ97bvNy54K5P0Gi5Iitcq/view?usp=sharing"
             className="cv-button"
             target="_blank"
             rel="noopener noreferrer"
